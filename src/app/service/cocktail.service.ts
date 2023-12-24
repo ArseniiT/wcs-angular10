@@ -4,7 +4,7 @@ import { Cocktail } from '../model/cocktail.model';
 @Injectable({
   providedIn: 'root'
 })
-export class CocktailServiceService {
+export class CocktailService {
   cocktails: Cocktail[] = [
     { nom: 'Mojito', prix: 5, image: 'https://www.gimmesomeoven.com/wp-content/uploads/2018/05/How-To-Make-A-Mojito-Recipe-Cocktail-Fresh-Honey-3-1391x2088.jpg' },
     { nom: 'Martini', prix: 10, image: 'https://www.sainsburysmagazine.co.uk/media/7427/download/Martini.jpg?v=1' },
