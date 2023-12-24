@@ -1,0 +1,7 @@
+<div class="card col-auto m-3" *ngFor="let c of cocktails" style="width: 18rem;">
+    <img class="card-img-top" [src]="c.image">
+    <div class="card-body">
+      <h5 class="card-title">{{c.nom}}</h5>
+      <p class="card-text">Prix: {{c.prix | currency: 'EUR'}}</p>
+    </div>
+</div>
